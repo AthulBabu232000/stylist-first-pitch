@@ -3,6 +3,7 @@ const icon=document.getElementById("tagicon");
 var swiper2 = new Swiper(".mySwiper2", {
     grabCursor: true,
     effect: "creative",
+    speed: 1500,
     creativeEffect: {
       prev: {
         shadow: true,
