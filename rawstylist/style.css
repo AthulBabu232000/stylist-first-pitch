@@ -73,33 +73,133 @@
       font-weight:800;
     }
     .inner-section1a .fa-play{
-      font-size:10rem;
+      font-size:5rem;
       margin-bottom:2rem;
     }
 
     .inner-section1b .inner-inner-section1b1{
       height:350px;
-      width:75%;
-      border-radius:5px;
+      width:65%;
+      border-radius:10px;
       border:1px solid var(--main-clr);
       position:absolute;
+      transform:translate(-15%,-9%);
+      background:url(https://5.imimg.com/data5/ECOM/Default/2022/8/HF/VY/QG/9422220/258dc5dd-bbc8-4aac-b621-356366361093-500x500.jpg);
+      background-size:cover;
+      background-position:center center;
+      opacity:0.5;
+      transition-duration:1s;
+     
     }
     .inner-section1b .inner-inner-section1b2{
       height:350px;
-      width:75%;
-      border-radius:5px;
+      width:65%;
+      border-radius:10px;
       border:1px solid var(--main-clr);
-      transform:translate(6.5%,6.5%);
       position:absolute;
-
+      transition-duration:1s;
+      padding:5px;
+      z-index:0;
+    }
+    .overlay{
+      background:url(https://img.freepik.com/free-photo/curly-girl-beautiful-dress_144627-10112.jpg);
+      background-size:cover;
+      background-position:center center;
+      position:absolute;
+      height:100%;
+      width: 100%;
+      top:0;
+      right:0;
+      bottom:0;
+      left:0;
+      z-index:-1;
+      opacity:0.3;
     }
     .inner-section1b .inner-inner-section1b3{
       height:350px;
-      width:75%;
-      border-radius:5px;
+      width:65%;
+      border-radius:10px;
       border:1px solid var(--main-clr);
       position:absolute;
-      transform:translate(13%,13%);
-
+      transform:translate(15%,9%);
+      background:url(https://m.media-amazon.com/images/I/61xCqDjo-HL._AC_UY1000_.jpg);
+      background-size:cover;
+      background-position:center center;
+      opacity:0.5;
+      transition-duration:1s;
 
     }
+
+
+ 
+    .dummy-btn{
+      position:absolute;
+      bottom:5px;
+
+    }
+
+    .inner-section1a-content{
+      position:absolute;
+      z-index:2;
+      display:flex;
+      justify-content:center;
+      flex-direction:column;
+      align-items:center;
+    }
+    .inner-section1a-content #tagname{
+    font-size:3rem;
+    }
+
+    .inner-section1a-content #tagline{
+      font-size:1rem;
+    }
+    .inner-inner-section1b2-header{
+      display:flex;
+      flex-direction:row;
+      justify-content:space-between;
+      align-items:center;
+      height:50px;
+      width:100%;  
+
+    }
+    .header-content-box img{
+      height:50px;
+      width:50px;
+      border-radius:100%;
+      
+    }
+  
+
+    .inner-inner-section1b2-header .header-content-box{
+      display:flex;
+      flex-direction:row;
+      align-items:center;
+    }
+
+    .header-content-box .header-welcome{
+      margin:0 auto;
+      font-weight:600;
+    }
+
+    .inner-inner-section1b2-header .header-icon-box{
+     
+   
+      height:100%;
+      display:flex;
+      justify-content:flex-end;
+      align-items:center;
+      /* padding:12px; */
+
+    }
+
+    .spacer-sm{
+      width:10px;
+    }
+    .body-content{
+      font-size:14px;
+    } 
+
+ .inner-inner-section1b2-cover{
+  display:none;
+ }
+    

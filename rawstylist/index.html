@@ -3,7 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
+    />
 
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta name="Description" content="Enter your description here" />
@@ -24,60 +27,109 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
 
     <link rel="stylesheet" href="./style.css" />
     <title>Stylist</title>
   </head>
   <body>
     <div class="container-fluid">
-        
-        <section class="swiper mySwiper2 section1" id="mySwiper2">
-          <div class="swiper-wrapper ">
-            <div class="swiper-slide inner-section1a">
-              
+      <section class="swiper mySwiper2 section1" id="mySwiper2">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide inner-section1a">
+            <div class="inner-section1a-content">
               <i class="fa-solid fa-play" id="tagicon"></i>
 
               <h2 id="tagname" class="domine-text">STYLIST</h2>
               <h5 id="tagline" class="domine-text">Be your own celebrity</h5>
-
             </div>
-            <div class="swiper-slide inner-section1b">
 
+            <div class="inner-section1b">
               <div class="inner-inner-section1b1"></div>
-              <div class="inner-inner-section1b2"></div>
+              <div class="inner-inner-section1b2">
+                <div class="overlay bg-danger"></div>
+                <div class="inner-inner-section1b2-cover">
+                  <div class="inner-inner-section1b2-header">
+                    <span class="header-content-box">
+                      <img
+                        src="https://m.media-amazon.com/images/I/61xCqDjo-HL._AC_UY1000_.jpg"
+                        class="img-responsive img-fluid"
+                        alt=""
+                        srcset=""
+                      />
+                      <span class="spacer-sm"></span>
+
+                      <p class="header-welcome">Welcome Suji</p>
+                    </span>
+                    <span class="header-icon-box">
+                      <i class="fa fa-heart" aria-hidden="true"></i>
+                      <span class="spacer-sm"></span>
+                      <i class="fa-solid fa-hotel"></i>
+                    </span>
+                  </div>
+
+                  <div class="inner-inner-section1b2-body">
+                    <p class="body-content text-center mt-3">
+                      We show all the clothes that are available in our store
+                      that matches your size below.
+                    </p>
+                    <p class="body-content text-center mt-1">Enjoy shopping</p>
+                  </div>
+
+                  <div class="inner-inner-section1b2-row row">
+                    <div class="col-6 mx-auto">
+                      <div class="card">
+                        <div class="card-body">
+                          <img
+                            class="card-img"
+                            src="https://m.media-amazon.com/images/I/61xCqDjo-HL._AC_UY1000_.jpg"
+                            alt=""
+                            srcset=""
+                          />
+                          <h5 class="card-title">Title</h5>
+                          <p class="card-text">Content</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-6 mx-auto">
+                      <div class="card">
+                        <div class="card-body">
+                          <h5 class="card-title">Title</h5>
+                          <p class="card-text">Content</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
               <div class="inner-inner-section1b3"></div>
-
-
             </div>
-           
           </div>
+        </div>
       </section>
-     
     </div>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
     <script>
-  
-        // var swiper2 = new Swiper(".mySwiper2", {
-        //   grabCursor: true,
-        //   effect: "creative",
-        //   creativeEffect: {
-        //     prev: {
-        //       shadow: true,
-        //       translate: ["-120%", 0, -500],
-        //     },
-        //     next: {
-        //       shadow: true,
-        //       translate: ["120%", 0, -500],
-        //     },
-        //   },
-        // });
- 
-
-
-      </script>
+      // var swiper2 = new Swiper(".mySwiper2", {
+      //   grabCursor: true,
+      //   effect: "creative",
+      //   creativeEffect: {
+      //     prev: {
+      //       shadow: true,
+      //       translate: ["-120%", 0, -500],
+      //     },
+      //     next: {
+      //       shadow: true,
+      //       translate: ["120%", 0, -500],
+      //     },
+      //   },
+      // });
+    </script>
     <script src="./script.js"></script>
   </body>
 </html>

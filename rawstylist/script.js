@@ -1,5 +1,6 @@
 const icon=document.getElementById("tagicon");
-
+const line=document.getElementById("tagline");
+const tname=document.getElementById("tagname");
 var swiper2 = new Swiper(".mySwiper2", {
     grabCursor: true,
     effect: "creative",
@@ -15,7 +16,26 @@ var swiper2 = new Swiper(".mySwiper2", {
       },
     },
   });
+  // swiper2.slideNext();
+
+// icon.addEventListener("click",()=>{
+//     swiper2.slideNext();
+// })
 
 icon.addEventListener("click",()=>{
-    swiper2.slideNext();
+    const div1=document.getElementsByClassName("inner-inner-section1b1")[0];
+    const div2=document.getElementsByClassName("inner-inner-section1b2")[0];
+    const div3=document.getElementsByClassName("inner-inner-section1b3")[0];
+    
+
+    div1.style.transform="translate(-135%,-117%)";
+    div3.style.transform="translate(135%,117%)";
+    div2.style.height="95vh";
+    div2.style.width="95vw";
+    line.style.display="none";
+    tname.style.display="none";
+    icon.style.display="none";
+    div2.querySelector(".inner-inner-section1b2-cover").style.display="block";
+
+
 })
