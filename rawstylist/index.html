@@ -31,30 +31,12 @@
   </head>
   <body>
     <div class="container-fluid">
-        <section class="section1">
-              <div class="inner-section1a">
-
-                <i class="fa-solid fa-play"></i>
-
-                <h2 id="tagname" class="domine-text">STYLIST</h2>
-                <h5 id="tagline" class="domine-text">Be your own celebrity</h5>
-
-              </div>
-              <div class="swiper-slide inner-section1b">
-
-                <div class="inner-inner-section1b1"></div>
-                <div class="inner-inner-section1b2"></div>
-                <div class="inner-inner-section1b3"></div>
-
-
-              </div>
-             
-        </section>
-        <section class="swiper mySwiper2 section1">
+        
+        <section class="swiper mySwiper2 section1" id="mySwiper2">
           <div class="swiper-wrapper ">
             <div class="swiper-slide inner-section1a">
               
-              <i class="fa-solid fa-play"></i>
+              <i class="fa-solid fa-play" id="tagicon"></i>
 
               <h2 id="tagname" class="domine-text">STYLIST</h2>
               <h5 id="tagline" class="domine-text">Be your own celebrity</h5>
@@ -74,20 +56,20 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
     <script>
   
-        var swiper2 = new Swiper(".mySwiper2", {
-          grabCursor: true,
-          effect: "creative",
-          creativeEffect: {
-            prev: {
-              shadow: true,
-              translate: ["-120%", 0, -500],
-            },
-            next: {
-              shadow: true,
-              translate: ["120%", 0, -500],
-            },
-          },
-        });
+        // var swiper2 = new Swiper(".mySwiper2", {
+        //   grabCursor: true,
+        //   effect: "creative",
+        //   creativeEffect: {
+        //     prev: {
+        //       shadow: true,
+        //       translate: ["-120%", 0, -500],
+        //     },
+        //     next: {
+        //       shadow: true,
+        //       translate: ["120%", 0, -500],
+        //     },
+        //   },
+        // });
  
 
 
