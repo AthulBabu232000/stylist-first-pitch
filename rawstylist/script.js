@@ -17,9 +17,13 @@ var swiper2 = new Swiper(".mySwiper2", {
     },
   });
   // swiper2.slideNext();
-
-// icon.addEventListener("click",()=>{
+// const fwd=document.getElementsByClassName("fa-forward")[0];
+// const bwd=document.getElementsByClassName("fa-backward")[0];
+// fwd.addEventListener("click",()=>{
 //     swiper2.slideNext();
+// })
+// bwd.addEventListener("click",()=>{
+//   swiper2.slidePrev();
 // })
 
 icon.addEventListener("click",()=>{
