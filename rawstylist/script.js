@@ -4,7 +4,7 @@ const tname=document.getElementById("tagname");
 var swiper2 = new Swiper(".mySwiper2", {
     grabCursor: true,
     effect: "creative",
-    speed: 1500,
+    speed: 500,
     creativeEffect: {
       prev: {
         shadow: true,
