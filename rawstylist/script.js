@@ -35,7 +35,13 @@ icon.addEventListener("click",()=>{
     line.style.display="none";
     tname.style.display="none";
     icon.style.display="none";
+    setTimeout(() => {
     div2.querySelector(".inner-inner-section1b2-cover").style.display="block";
+      
+    }, 1000);
+    // div2.querySelector(".overlay").style.display="none";
+      div2.style.backgroundColor="#140226";
+      div2.style.color="#fff";
 
 
 })
